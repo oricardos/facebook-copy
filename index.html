@@ -51,19 +51,57 @@
 						<form action="">
 							<div class="create">
 								<div class="name_create">
-									<input type="text" name="name" placeholder="Nome">
+									<input type="text" name="name" placeholder="Nome" class="input_name inp">
 								</div>
 
 								<div class="last_name">
-									<input type="text" name="last_name" placeholder="Sobrenome">
+									<input type="text" name="last_name" placeholder="Sobrenome" class="input_name inp">
 								</div>
 							</div>
 
-							<input type="email" name="cel" placeholder="Celular ou email">
+							<div class="log">
+								
+								<input type="email" name="cel" placeholder="Celular ou email" class=" inp">
 
-							<input type="password" name="password" placeholder="Nova senha">
+								<input type="password" name="password" placeholder="Nova senha" class=" inp">
+								
+							</div>
 
-							<label for="nasc">Data de Nascimento</label>
+							<div class="born">
+								<div class="w-100">
+									<div class="label_cad">Data de Nascimento</div>
+								</div>								
+
+								<select name="day" id="day">
+									<option value="18">18</option>
+								</select>
+
+								<select name="mounth" id="mounth">
+									<option value="Jan">Jan</option>
+								</select>
+
+								<select name="year" id="year">
+									<option value="1993">1993</option>
+								</select>
+							</div>
+
+							<div class="genre">
+								<div class="w-100">
+									<div class="label_cad">Gênero</div>
+								</div>
+								<input type="radio">Feminino
+								<input type="radio">Masculino
+								<input type="radio">Personalizado
+							</div>
+							
+							<div class="terms">
+								Ao clicar em Cadastre-se, você concorda com nossos <a href="">Termos, Política de Dados</a> e <a href="">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+							</div>
+
+							<button class="btn_cad">
+								Cadastre-se
+							</button>
+							
 						</form>
 					</div>
 				</div>
